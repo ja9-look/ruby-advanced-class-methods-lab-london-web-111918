@@ -39,6 +39,7 @@ class Song
     artist_name = array[0]
     song_name = array[1]
     song = song_name.split(".")
+    song = song[0]
     
   end
   
